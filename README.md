@@ -1,15 +1,6 @@
 # Document Search API System
 
-A simple Document Management application with file upload, search, and pagination built with PHP backend and Angular frontend.
-
-## Features
-
-- Drag & drop file upload
-- Document listing with pagination
-- Delete documents
-- Search with highlighted results
-- Responsive UI using Angular Material
-- Loading and error handling
+A simple Document Management API with file upload, search, and pagination built with PHP backend and Angular frontend.
 
 ## Requirements
 
@@ -178,9 +169,13 @@ Exit MySQL shell:
 ### Now let's set up the Angular front end to see all of this magic in action !!! 
 - Repo ( https://github.com/Letlhogonolo92/document-management-frontend )
 
-### Frontend Usage
-- Upload files via drag & drop or file selector
-- Search documents using the input box
-- View details or delete documents using action buttons
-- Pagination available at the bottom of the list
+### Front End Features
+
+- Drag & drop file upload
+- Document listing with pagination
+- Delete documents
+- Search with highlighted results
+- Responsive UI using Angular Material
+- Loading and error handling
+- Optimized search with cached results for improved performance
 
