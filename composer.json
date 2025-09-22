@@ -1,0 +1,13 @@
+{
+    "name": "letlhogonolomaake92/document-management-api",
+    "description": "Document Management API",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "smalot/pdfparser": "^2.12",
+        "ext-json": "*"
+    }
+}

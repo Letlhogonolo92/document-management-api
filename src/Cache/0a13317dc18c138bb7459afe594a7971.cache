@@ -1,0 +1,261 @@
+a:2:{s:7:"expires";i:1758545645;s:4:"data";a:4:{i:0;a:6:{s:2:"id";s:2:"18";s:4:"name";s:63:"LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"path";s:137:"/Users/w1000276/Projects/document-management-api/src/Models/../../uploads/LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"body";s:3032:"Take‑home assignment: Senior PHP Engineer 
+Context 
+Company X is building a new lightweight document search system for internal research 
+purposes. The system needs to allow users to upload research documents, index their content, 
+and provide fast search capabilities with result highlighting. 
+ 
+As a Senior PHP Engineer, you'll be tasked with creating a proof-of-concept that demonstrates 
+your ability to build efficient, scalable solutions using core PHP principles and modern front-end 
+technologies. 
+<mark>Requirements</mark> 
+Backend <mark>Requirements</mark> (PHP) 
+1.​Document Management API 
+-​Create a RESTful API using vanilla PHP 
+-​Implement the following endpoints: 
+-​POST /api/documents - Upload a document (text/plain or PDF) 
+-​GET /api/documents - List all documents with pagination 
+-​GET /api/documents/{id} - Get a specific document 
+-​DELETE /api/documents/{id} - Delete a document 
+-​GET /api/search?q={query} - Search documents by content 
+2.​Database Design 
+-​Design and implement a MySQL database schema 
+-​Include tables for documents and search index 
+-​Implement proper indexing for performance 
+3.​Search Functionality 
+-​Implement full-text search across document content 
+-​Return search results with relevance scoring 
+-​Highlight matching terms in search results 
+-​Implement basic caching for frequent searches 
+4.​Performance Optimization 
+-​Implement database query optimization 
+-​Add a simple caching layer (file-based or in-memory) 
+-​Handle large documents efficiently (streaming/chunking) 
+Frontend <mark>Requirements</mark> (Angular/TypeScript) 
+1.​Document Management Interface 
+-​Upload documents with drag-and-drop support
+
+-​Display document list with pagination 
+-​Delete documents with confirmation 
+-​Show document details 
+2.​Search Interface 
+-​Search input with real-time suggestions (debounced) 
+-​Display search results with highlighted matches 
+-​Sort results by relevance or date 
+-​Show search performance metrics (time taken, result count) 
+3.​UI/UX <mark>Requirements</mark> 
+-​Responsive design 
+-​Loading states and error handling 
+-​Clean, modern interface using Angular Material or similar 
+Technical Constraints 
+-​PHP: Must use PHP 8.0+ without major frameworks (composer packages for specific 
+utilities are allowed) 
+-​Database: MySQL or MariaDB 
+-​Frontend: Angular 14+ with TypeScript 
+Deliverables 
+1.​GitHub repository containing: 
+-​Complete source code for both backend and frontend 
+-​A README.md with instructions to build, test, and run locally. 
+-​A SOLUTION.md describing the design and trade-offs you made. 
+2.​Video Demo (5-10 minutes using Loom or similar): 
+-​Demonstrate the working application 
+-​Walk through your code architecture 
+-​Explain key design decisions 
+-​Discuss any trade-offs made 
+-​Highlight interesting technical implementations 
+Time estimate 
+-​This should take ±4 hours to complete, but you can take as long as you need.";s:10:"created_at";s:19:"2025-09-21 22:57:09";s:9:"relevance";s:18:"2.3083808422088623";}i:1;a:6:{s:2:"id";s:2:"20";s:4:"name";s:63:"LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"path";s:137:"/Users/w1000276/Projects/document-management-api/src/Models/../../uploads/LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"body";s:3032:"Take‑home assignment: Senior PHP Engineer 
+Context 
+Company X is building a new lightweight document search system for internal research 
+purposes. The system needs to allow users to upload research documents, index their content, 
+and provide fast search capabilities with result highlighting. 
+ 
+As a Senior PHP Engineer, you'll be tasked with creating a proof-of-concept that demonstrates 
+your ability to build efficient, scalable solutions using core PHP principles and modern front-end 
+technologies. 
+<mark>Requirements</mark> 
+Backend <mark>Requirements</mark> (PHP) 
+1.​Document Management API 
+-​Create a RESTful API using vanilla PHP 
+-​Implement the following endpoints: 
+-​POST /api/documents - Upload a document (text/plain or PDF) 
+-​GET /api/documents - List all documents with pagination 
+-​GET /api/documents/{id} - Get a specific document 
+-​DELETE /api/documents/{id} - Delete a document 
+-​GET /api/search?q={query} - Search documents by content 
+2.​Database Design 
+-​Design and implement a MySQL database schema 
+-​Include tables for documents and search index 
+-​Implement proper indexing for performance 
+3.​Search Functionality 
+-​Implement full-text search across document content 
+-​Return search results with relevance scoring 
+-​Highlight matching terms in search results 
+-​Implement basic caching for frequent searches 
+4.​Performance Optimization 
+-​Implement database query optimization 
+-​Add a simple caching layer (file-based or in-memory) 
+-​Handle large documents efficiently (streaming/chunking) 
+Frontend <mark>Requirements</mark> (Angular/TypeScript) 
+1.​Document Management Interface 
+-​Upload documents with drag-and-drop support
+
+-​Display document list with pagination 
+-​Delete documents with confirmation 
+-​Show document details 
+2.​Search Interface 
+-​Search input with real-time suggestions (debounced) 
+-​Display search results with highlighted matches 
+-​Sort results by relevance or date 
+-​Show search performance metrics (time taken, result count) 
+3.​UI/UX <mark>Requirements</mark> 
+-​Responsive design 
+-​Loading states and error handling 
+-​Clean, modern interface using Angular Material or similar 
+Technical Constraints 
+-​PHP: Must use PHP 8.0+ without major frameworks (composer packages for specific 
+utilities are allowed) 
+-​Database: MySQL or MariaDB 
+-​Frontend: Angular 14+ with TypeScript 
+Deliverables 
+1.​GitHub repository containing: 
+-​Complete source code for both backend and frontend 
+-​A README.md with instructions to build, test, and run locally. 
+-​A SOLUTION.md describing the design and trade-offs you made. 
+2.​Video Demo (5-10 minutes using Loom or similar): 
+-​Demonstrate the working application 
+-​Walk through your code architecture 
+-​Explain key design decisions 
+-​Discuss any trade-offs made 
+-​Highlight interesting technical implementations 
+Time estimate 
+-​This should take ±4 hours to complete, but you can take as long as you need.";s:10:"created_at";s:19:"2025-09-21 23:35:22";s:9:"relevance";s:18:"2.3083808422088623";}i:2;a:6:{s:2:"id";s:2:"31";s:4:"name";s:63:"LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"path";s:151:"/Users/w1000276/Projects/document-management-api/src/Models/../../uploads/68d120d68b3e6_LexisNexis _ Take home assignment _ Senior PHP Engineer (1).pdf";s:4:"body";s:3032:"Take‑home assignment: Senior PHP Engineer 
+Context 
+Company X is building a new lightweight document search system for internal research 
+purposes. The system needs to allow users to upload research documents, index their content, 
+and provide fast search capabilities with result highlighting. 
+ 
+As a Senior PHP Engineer, you'll be tasked with creating a proof-of-concept that demonstrates 
+your ability to build efficient, scalable solutions using core PHP principles and modern front-end 
+technologies. 
+<mark>Requirements</mark> 
+Backend <mark>Requirements</mark> (PHP) 
+1.​Document Management API 
+-​Create a RESTful API using vanilla PHP 
+-​Implement the following endpoints: 
+-​POST /api/documents - Upload a document (text/plain or PDF) 
+-​GET /api/documents - List all documents with pagination 
+-​GET /api/documents/{id} - Get a specific document 
+-​DELETE /api/documents/{id} - Delete a document 
+-​GET /api/search?q={query} - Search documents by content 
+2.​Database Design 
+-​Design and implement a MySQL database schema 
+-​Include tables for documents and search index 
+-​Implement proper indexing for performance 
+3.​Search Functionality 
+-​Implement full-text search across document content 
+-​Return search results with relevance scoring 
+-​Highlight matching terms in search results 
+-​Implement basic caching for frequent searches 
+4.​Performance Optimization 
+-​Implement database query optimization 
+-​Add a simple caching layer (file-based or in-memory) 
+-​Handle large documents efficiently (streaming/chunking) 
+Frontend <mark>Requirements</mark> (Angular/TypeScript) 
+1.​Document Management Interface 
+-​Upload documents with drag-and-drop support
+
+-​Display document list with pagination 
+-​Delete documents with confirmation 
+-​Show document details 
+2.​Search Interface 
+-​Search input with real-time suggestions (debounced) 
+-​Display search results with highlighted matches 
+-​Sort results by relevance or date 
+-​Show search performance metrics (time taken, result count) 
+3.​UI/UX <mark>Requirements</mark> 
+-​Responsive design 
+-​Loading states and error handling 
+-​Clean, modern interface using Angular Material or similar 
+Technical Constraints 
+-​PHP: Must use PHP 8.0+ without major frameworks (composer packages for specific 
+utilities are allowed) 
+-​Database: MySQL or MariaDB 
+-​Frontend: Angular 14+ with TypeScript 
+Deliverables 
+1.​GitHub repository containing: 
+-​Complete source code for both backend and frontend 
+-​A README.md with instructions to build, test, and run locally. 
+-​A SOLUTION.md describing the design and trade-offs you made. 
+2.​Video Demo (5-10 minutes using Loom or similar): 
+-​Demonstrate the working application 
+-​Walk through your code architecture 
+-​Explain key design decisions 
+-​Discuss any trade-offs made 
+-​Highlight interesting technical implementations 
+Time estimate 
+-​This should take ±4 hours to complete, but you can take as long as you need.";s:10:"created_at";s:19:"2025-09-22 12:11:34";s:9:"relevance";s:18:"2.3083808422088623";}i:3;a:6:{s:2:"id";s:2:"32";s:4:"name";s:59:"LexisNexis _ Take home assignment _ Senior PHP Engineer.pdf";s:4:"path";s:147:"/Users/w1000276/Projects/document-management-api/src/Models/../../uploads/68d122b483bb3_LexisNexis _ Take home assignment _ Senior PHP Engineer.pdf";s:4:"body";s:3032:"Take‑home assignment: Senior PHP Engineer 
+Context 
+Company X is building a new lightweight document search system for internal research 
+purposes. The system needs to allow users to upload research documents, index their content, 
+and provide fast search capabilities with result highlighting. 
+ 
+As a Senior PHP Engineer, you'll be tasked with creating a proof-of-concept that demonstrates 
+your ability to build efficient, scalable solutions using core PHP principles and modern front-end 
+technologies. 
+<mark>Requirements</mark> 
+Backend <mark>Requirements</mark> (PHP) 
+1.​Document Management API 
+-​Create a RESTful API using vanilla PHP 
+-​Implement the following endpoints: 
+-​POST /api/documents - Upload a document (text/plain or PDF) 
+-​GET /api/documents - List all documents with pagination 
+-​GET /api/documents/{id} - Get a specific document 
+-​DELETE /api/documents/{id} - Delete a document 
+-​GET /api/search?q={query} - Search documents by content 
+2.​Database Design 
+-​Design and implement a MySQL database schema 
+-​Include tables for documents and search index 
+-​Implement proper indexing for performance 
+3.​Search Functionality 
+-​Implement full-text search across document content 
+-​Return search results with relevance scoring 
+-​Highlight matching terms in search results 
+-​Implement basic caching for frequent searches 
+4.​Performance Optimization 
+-​Implement database query optimization 
+-​Add a simple caching layer (file-based or in-memory) 
+-​Handle large documents efficiently (streaming/chunking) 
+Frontend <mark>Requirements</mark> (Angular/TypeScript) 
+1.​Document Management Interface 
+-​Upload documents with drag-and-drop support
+
+-​Display document list with pagination 
+-​Delete documents with confirmation 
+-​Show document details 
+2.​Search Interface 
+-​Search input with real-time suggestions (debounced) 
+-​Display search results with highlighted matches 
+-​Sort results by relevance or date 
+-​Show search performance metrics (time taken, result count) 
+3.​UI/UX <mark>Requirements</mark> 
+-​Responsive design 
+-​Loading states and error handling 
+-​Clean, modern interface using Angular Material or similar 
+Technical Constraints 
+-​PHP: Must use PHP 8.0+ without major frameworks (composer packages for specific 
+utilities are allowed) 
+-​Database: MySQL or MariaDB 
+-​Frontend: Angular 14+ with TypeScript 
+Deliverables 
+1.​GitHub repository containing: 
+-​Complete source code for both backend and frontend 
+-​A README.md with instructions to build, test, and run locally. 
+-​A SOLUTION.md describing the design and trade-offs you made. 
+2.​Video Demo (5-10 minutes using Loom or similar): 
+-​Demonstrate the working application 
+-​Walk through your code architecture 
+-​Explain key design decisions 
+-​Discuss any trade-offs made 
+-​Highlight interesting technical implementations 
+Time estimate 
+-​This should take ±4 hours to complete, but you can take as long as you need.";s:10:"created_at";s:19:"2025-09-22 12:19:32";s:9:"relevance";s:18:"2.3083808422088623";}}}
