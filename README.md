@@ -84,13 +84,13 @@ Exit MySQL shell:
 
 ### Test Endpoints
 
-GET http://localhost:8000/api/documents
-POST http://localhost:8000/api/documents (upload file via Postman/form-data)
-GET http://localhost:8000/api/documents/1
-DELETE http://localhost:8000/api/documents/1
+- GET http://localhost:8000/api/documents
+- POST http://localhost:8000/api/documents (upload file via Postman/form-data)
+- GET http://localhost:8000/api/documents/1
+- DELETE http://localhost:8000/api/documents/1
 
 ### Postman Collectio for convinience
-Here’s a ready-to-import Postman collection. You can import it directly into Postman and start testing all endpoints immediately
+- Here’s a ready-to-import Postman Json collection. You can import it directly into Postman and start testing all endpoints immediately
 
 {
   "info": {
@@ -191,8 +191,8 @@ Here’s a ready-to-import Postman collection. You can import it directly into P
 
 
 ### Frontend Usage
-Upload files via drag & drop or file selector
-Search documents using the input box
-View details or delete documents using action buttons
-Pagination available at the bottom of the list
+- Upload files via drag & drop or file selector
+- Search documents using the input box
+- View details or delete documents using action buttons
+- Pagination available at the bottom of the list
 
