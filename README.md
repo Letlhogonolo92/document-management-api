@@ -1,4 +1,4 @@
-# Document Manager
+# Document Search System
 
 A simple Document Management application with file upload, search, and pagination built with PHP backend and Angular frontend.
 
