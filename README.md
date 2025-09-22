@@ -23,31 +23,31 @@ A simple Document Management application with file upload, search, and paginatio
 
 ### Backend
 
-cd document-management-api
-composer install
-php -S localhost:8000 -t public
+- cd document-management-api
+- composer install
+- php -S localhost:8000 -t public
 
 ### Frontend
-cd document-management-frontend
-npm install
-ng serve
-Open http://localhost:4200 in your browser.
+- cd document-management-frontend
+- npm install
+- ng serve
+- Open http://localhost:4200 in your browser.
 
 ### MySQL Setup Backend
 
-cd document-management-api
+- cd document-management-api
 
-🔹 Step 1: Install MySQL
-**MacOS (Homebrew):**
+- 🔹 Step 1: Install MySQL
+- **MacOS (Homebrew):**
 
-brew install mysql
+- brew install mysql
 
 **Linux (Ubuntu/Debian):**
 
-sudo apt update
-sudo apt install mysql-server
-sudo systemctl start mysql
-sudo systemctl enable mysql
+- sudo apt update
+- sudo apt install mysql-server
+- sudo systemctl start mysql
+- sudo systemctl enable mysql
 
 🔹 Step 2: Start MySQL
 
