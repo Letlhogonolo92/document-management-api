@@ -27,7 +27,7 @@ A simple Document Management application with file upload, search, and paginatio
 - composer install
 - php -S localhost:8000 -t public
 
-### Frontend
+### Frontend ( https://github.com/Letlhogonolo92/document-management-frontend )
 - cd document-management-frontend
 - npm install
 - ng serve
