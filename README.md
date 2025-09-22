@@ -15,7 +15,7 @@ A simple Document Management application with file upload, search, and paginatio
 
 - PHP 8+
 - Composer
-- Node.js 18+
+- Node.js 20+
 - Angular CLI
 - MySQL
 
@@ -27,39 +27,25 @@ A simple Document Management application with file upload, search, and paginatio
 - composer install
 - php -S localhost:8000 -t public
 
-### Frontend ( https://github.com/Letlhogonolo92/document-management-frontend )
-- cd document-management-frontend
-- npm install
-- ng serve
-- Open http://localhost:4200 in your browser.
-
 ### MySQL Setup Backend
 
+- Open a new terminal tab
 - cd document-management-api
-
-- 🔹 Step 1: Install MySQL
+  
 - **MacOS (Homebrew):**
 
 - brew install mysql
+- brew services start mysql
+- mysql -u root
 
 **Linux (Ubuntu/Debian):**
 
 - sudo apt update
-- sudo apt install mysql-server
+- sudo apt install mysql-server -y
 - sudo systemctl start mysql
 - sudo systemctl enable mysql
-
-🔹 Step 2: Start MySQL
-
-Start MySQL as a background service:
-> brew services start mysql
-
-Verify it’s running:
-> mysql -u root
-
-👉 By default, no password is set for root. If it asks for one, just press Enter.
-
-🔹 Step 3: Create Database & Table
+- sudo mysql_secure_installation
+- sudo mysql -u root -p
 
 Inside the MySQL shell (mysql> prompt), paste:
 
@@ -189,6 +175,8 @@ Exit MySQL shell:
   ]
 }
 
+### Now let's set up the Angular front end to see all of this magic in action !!! 
+- Repo ( https://github.com/Letlhogonolo92/document-management-frontend )
 
 ### Frontend Usage
 - Upload files via drag & drop or file selector
